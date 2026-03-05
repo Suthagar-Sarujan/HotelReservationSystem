@@ -22,7 +22,14 @@
 <body>
 <div class="app-shell">
     <header class="topbar no-print">
-        <div class="brand">Hotel Reservation Admin Panel</div>
+        <div class="topbar-main">
+            <div class="brand-block">
+                <span class="eyebrow">Operations Suite</span>
+                <div class="brand">Harbor View Hotel</div>
+                <div class="brand-sub">Reservation management console</div>
+            </div>
+            <div class="brand-meta">${sessionScope.username} | <%= role %></div>
+        </div>
         <nav class="nav-links">
             <a class="btn btn-link active" href="<%=request.getContextPath()%>/dashboard">Dashboard</a>
             <% if (canManageReservations) { %>
@@ -41,8 +48,8 @@
     </header>
 
     <section class="page-header">
-        <h1 class="page-title">Dashboard</h1>
-        <p class="page-subtitle">Welcome, <strong>${sessionScope.username}</strong> (<%= role %>). Here is your latest reservation snapshot.</p>
+        <h1 class="page-title">Operations Dashboard</h1>
+        <p class="page-subtitle">Welcome, <strong>${sessionScope.username}</strong>. Track reservation activity, room occupancy, and revenue performance from one place.</p>
     </section>
 
     <% if (session.getAttribute("message") != null) { %>
@@ -59,8 +66,42 @@
     <div class="alert alert-danger"><%= request.getAttribute("error") %></div>
     <% } %>
 
+    <section class="card no-print">
+        <h2 class="section-title">Quick Actions</h2>
+        <p class="section-subtitle">Start a task directly from your role-approved workflows.</p>
+        <div class="quick-grid">
+            <% if (canManageReservations) { %>
+            <a class="quick-item" href="<%=request.getContextPath()%>/reservation/add">
+                <strong>Create Reservation</strong>
+                <span>Capture a new guest booking.</span>
+            </a>
+            <% } %>
+            <a class="quick-item" href="<%=request.getContextPath()%>/reservation">
+                <strong>View Reservations</strong>
+                <span>Search, inspect, and manage records.</span>
+            </a>
+            <% if (canManageReservations) { %>
+            <a class="quick-item" href="<%=request.getContextPath()%>/bill">
+                <strong>Generate Bill</strong>
+                <span>Produce and print payment details.</span>
+            </a>
+            <% } %>
+            <% if (canAccessReports) { %>
+            <a class="quick-item" href="<%=request.getContextPath()%>/report">
+                <strong>Open Reports</strong>
+                <span>Review occupancy and revenue trends.</span>
+            </a>
+            <% } %>
+            <a class="quick-item" href="<%=request.getContextPath()%>/help">
+                <strong>Help Center</strong>
+                <span>Check role guide and process notes.</span>
+            </a>
+        </div>
+    </section>
+
     <section class="card">
         <h2 class="section-title">Key Metrics</h2>
+        <p class="section-subtitle">Current operational snapshot generated from reservation data.</p>
         <div class="metric-grid">
             <article class="metric-card">
                 <span class="label">Total Reservations</span>
@@ -79,6 +120,7 @@
 
     <section class="card">
         <h2 class="section-title">Recent Reservations</h2>
+        <p class="section-subtitle">Latest bookings to review and process quickly.</p>
         <div class="table-shell">
             <table>
                 <thead>

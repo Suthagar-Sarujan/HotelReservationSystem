@@ -17,7 +17,14 @@
 <body>
 <div class="app-shell">
     <header class="topbar no-print">
-        <div class="brand">Billing</div>
+        <div class="topbar-main">
+            <div class="brand-block">
+                <span class="eyebrow">Billing</span>
+                <div class="brand">Invoice Generator</div>
+                <div class="brand-sub">Produce print-ready bills from reservation data</div>
+            </div>
+            <div class="brand-meta">${sessionScope.username} | <%= role %></div>
+        </div>
         <nav class="nav-links">
             <a class="btn btn-link" href="<%=request.getContextPath()%>/dashboard">Dashboard</a>
             <a class="btn btn-link" href="<%=request.getContextPath()%>/reservation">Reservations</a>
@@ -34,7 +41,7 @@
 
     <section class="page-header">
         <h1 class="page-title">Calculate and Print Bill</h1>
-        <p class="page-subtitle">Generate a complete bill by entering the reservation ID.</p>
+        <p class="page-subtitle">Generate a complete invoice by entering a reservation ID and print after verification.</p>
     </section>
 
     <% if (request.getAttribute("error") != null) { %>
@@ -42,6 +49,8 @@
     <% } %>
 
     <section class="card no-print">
+        <h2 class="section-title">Bill Request</h2>
+        <p class="section-subtitle">Enter the reservation identifier to load pricing, tax, and service charges.</p>
         <form class="grid-2" method="get" action="<%=request.getContextPath()%>/bill">
             <div class="field">
                 <label for="reservationId">Reservation ID</label>

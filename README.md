@@ -47,3 +47,32 @@ Java EE web application for hotel reservation management using Servlets/JSP, DAO
 ## Compliance Notes
 - No backend framework is used (no Spring/Quarkus/etc.).
 - Backend dependencies are limited to Java EE API, DB driver, JUnit, and JSON serialization.
+
+## Assignment Compliance (Strict)
+### Backend Framework Policy
+- This project uses Java EE Servlets/JSP only.
+- No Spring Boot, Spring MVC, Quarkus, or similar backend frameworks are used.
+
+### Allowed Backend Dependencies Used
+- Java EE: `javax:javaee-web-api`
+- Database: `mysql:mysql-connector-java`
+- Testing: `junit:junit`
+- Serialization (optional): `com.google.code.gson:gson`
+
+### Submission Quality Rules
+- All diagrams, screenshots, graphs, and stats in the report must be clear and readable.
+- Do not include Google Drive / OneDrive / third-party storage URLs as submission evidence.
+- Report content must align directly with the official marking criteria.
+- GitHub repository must remain Public.
+
+## Final Submission Checklist
+- [ ] Build succeeds with `mvn clean package`
+- [ ] WAR deploys to a Servlet 4.0 compatible server (Tomcat 9 recommended)
+- [ ] Database schema from `database/schema.sql` is applied successfully
+- [ ] Login and role-based access flows are demonstrable
+- [ ] Reservation CRUD, billing, and reporting pages are demonstrable
+- [ ] REST endpoint `/api/reservations/*` is demonstrable
+- [ ] Report has readable diagrams/screenshots/stats/graphs
+- [ ] Report contains no third-party storage links
+- [ ] Report content maps to assignment marking criteria
+- [ ] GitHub repository visibility is Public

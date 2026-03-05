@@ -3,6 +3,7 @@
 <%
     List<Reservation> reservations = (List<Reservation>) request.getAttribute("reservations");
     Reservation selectedReservation = (Reservation) request.getAttribute("reservation");
+    int reservationCount = reservations != null ? reservations.size() : 0;
     String role = String.valueOf(session.getAttribute("role"));
     boolean canAccessReports = "ADMIN".equalsIgnoreCase(role) || "MANAGER".equalsIgnoreCase(role);
     boolean canManageReservations = "ADMIN".equalsIgnoreCase(role) || "RECEPTION".equalsIgnoreCase(role);
@@ -18,7 +19,14 @@
 <body>
 <div class="app-shell">
     <header class="topbar no-print">
-        <div class="brand">Reservations</div>
+        <div class="topbar-main">
+            <div class="brand-block">
+                <span class="eyebrow">Reservations</span>
+                <div class="brand">Guest Booking Register</div>
+                <div class="brand-sub">Search, review, and manage reservation records</div>
+            </div>
+            <div class="brand-meta">${sessionScope.username} | <%= role %></div>
+        </div>
         <nav class="nav-links">
             <a class="btn btn-link" href="<%=request.getContextPath()%>/dashboard">Dashboard</a>
             <% if (canManageReservations) { %>
@@ -38,7 +46,7 @@
 
     <section class="page-header">
         <h1 class="page-title">Reservation List</h1>
-        <p class="page-subtitle">Search guests, inspect bookings, and manage reservation lifecycle.</p>
+        <p class="page-subtitle">Search guests, inspect booking details, and manage reservation lifecycle actions.</p>
     </section>
 
     <% if (session.getAttribute("message") != null) { %>
@@ -61,6 +69,30 @@
         <a href="<%=request.getContextPath()%>/reservation">Show all reservations</a>
     </div>
     <% } %>
+
+    <section class="card no-print">
+        <h2 class="section-title">Reservation Overview</h2>
+        <div class="quick-grid">
+            <div class="quick-item">
+                <strong>Loaded Records</strong>
+                <span><%= reservationCount %> reservation(s) in current view.</span>
+            </div>
+            <div class="quick-item">
+                <strong>Current Role</strong>
+                <span><%= role %> access is applied to available actions.</span>
+            </div>
+            <div class="quick-item">
+                <strong>Billing Shortcut</strong>
+                <span>Generate a bill directly from each reservation row.</span>
+            </div>
+            <% if (canAccessReports) { %>
+            <div class="quick-item">
+                <strong>Reporting Access</strong>
+                <span>Use Reports for occupancy and revenue analysis.</span>
+            </div>
+            <% } %>
+        </div>
+    </section>
 
     <section class="card">
         <div class="action-row no-print">

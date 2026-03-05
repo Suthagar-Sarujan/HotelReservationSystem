@@ -14,7 +14,14 @@
 %>
 <div class="app-shell">
     <header class="topbar no-print">
-        <div class="brand">Support</div>
+        <div class="topbar-main">
+            <div class="brand-block">
+                <span class="eyebrow">Support</span>
+                <div class="brand">Help Center</div>
+                <div class="brand-sub">Operational guidance and role-based usage notes</div>
+            </div>
+            <div class="brand-meta">${sessionScope.username} | <%= role %></div>
+        </div>
         <nav class="nav-links">
             <a class="btn btn-link" href="<%=request.getContextPath()%>/dashboard">Dashboard</a>
             <a class="btn btn-link" href="<%=request.getContextPath()%>/reservation">Reservations</a>
@@ -31,7 +38,29 @@
 
     <section class="page-header">
         <h1 class="page-title">Help and Usage Guide</h1>
-        <p class="page-subtitle">Follow these steps for smooth operation during demos and viva.</p>
+        <p class="page-subtitle">Use these reference steps for accurate operation during demos and final evaluation.</p>
+    </section>
+
+    <section class="card no-print">
+        <h2 class="section-title">Quick Orientation</h2>
+        <div class="quick-grid">
+            <div class="quick-item">
+                <strong>Step 1</strong>
+                <span>Login with the correct role account credentials.</span>
+            </div>
+            <div class="quick-item">
+                <strong>Step 2</strong>
+                <span>Create and validate reservation data carefully.</span>
+            </div>
+            <div class="quick-item">
+                <strong>Step 3</strong>
+                <span>Generate bills and review totals before printing.</span>
+            </div>
+            <div class="quick-item">
+                <strong>Step 4</strong>
+                <span>Review reports (manager/admin) for final analysis.</span>
+            </div>
+        </div>
     </section>
 
     <section class="card">
