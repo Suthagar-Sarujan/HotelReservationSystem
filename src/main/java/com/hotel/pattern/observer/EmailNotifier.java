@@ -1,8 +1,12 @@
 package com.hotel.pattern.observer;
 
 import com.hotel.model.Reservation;
+import java.util.logging.Logger;
+import java.util.logging.Level;
 
 public class EmailNotifier implements Observer {
+    private static final Logger LOGGER = Logger.getLogger(EmailNotifier.class.getName());
+
     @Override
     public void update(String eventType, Reservation reservation) {
         String subject;
@@ -30,8 +34,14 @@ public class EmailNotifier implements Observer {
                 break;
         }
 
-        System.out.println("Sending email to " + reservation.getEmail());
-        System.out.println("Subject: " + subject);
-        System.out.println("Body: " + body);
+        sendEmail(reservation.getEmail(), subject, body);
+    }
+
+    private void sendEmail(String to, String subject, String body) {
+        // Email sending logic would be implemented here using JavaMail API
+        // For demonstration purposes, we log the email details
+        LOGGER.log(Level.INFO, "Sending email to {0}", to);
+        LOGGER.log(Level.INFO, "Subject: {0}", subject);
+        LOGGER.log(Level.INFO, "Body: {0}", body);
     }
 }

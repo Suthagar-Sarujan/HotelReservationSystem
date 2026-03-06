@@ -29,6 +29,15 @@
 }
 
 html,
+body,
+button,
+input,
+select,
+textarea {
+    font-family: "Poppins", "Trebuchet MS", sans-serif;
+}
+
+html,
 body {
     margin: 0;
     padding: 0;
