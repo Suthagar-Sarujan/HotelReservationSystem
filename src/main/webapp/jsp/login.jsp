@@ -11,7 +11,7 @@
     <div class="login-layout">
         <section class="login-intro">
             <div class="stack">
-                <p class="eyebrow">Hospitality Operations</p>
+                <p class="eyebrow">Online Reservation</p>
                 <h1>Hotel Reservation System</h1>
                 <p>Manage guest reservations, billing, and reporting from one professional operations workspace.</p>
             </div>

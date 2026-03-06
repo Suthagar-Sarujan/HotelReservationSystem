@@ -169,7 +169,7 @@ a:hover {
 }
 
 .eyebrow {
-    display: inline-block;
+    display: block;
     margin-bottom: 8px;
     padding: 5px 11px;
     border-radius: 999px;
@@ -179,6 +179,7 @@ a:hover {
     font-weight: 700;
     color: #114f63;
     background: #d8f1f0;
+    text-align: center;
 }
 
 .topbar {
