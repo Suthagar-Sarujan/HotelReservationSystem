@@ -272,3 +272,14 @@
 0:0:0:0:0:0:0:1 - - [07/Mar/2026:10:13:21 +0530] "GET /favicon.ico HTTP/1.1" 304 -
 0:0:0:0:0:0:0:1 - - [07/Mar/2026:10:13:21 +0530] "GET /HotelReservationSystem/ HTTP/1.1" 200 2269
 0:0:0:0:0:0:0:1 - - [07/Mar/2026:10:13:21 +0530] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [07/Mar/2026:19:06:11 +0530] "HEAD /HotelReservationSystem/ HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [07/Mar/2026:19:06:19 +0530] "GET /HotelReservationSystem/ HTTP/1.1" 200 2269
+0:0:0:0:0:0:0:1 - - [07/Mar/2026:19:06:41 +0530] "GET /HotelReservationSystem/login HTTP/1.1" 200 2269
+0:0:0:0:0:0:0:1 - - [07/Mar/2026:19:06:44 +0530] "GET /HotelReservationSystem/login HTTP/1.1" 200 2269
+0:0:0:0:0:0:0:1 - - [07/Mar/2026:19:06:45 +0530] "GET /HotelReservationSystem/login HTTP/1.1" 200 2269
+0:0:0:0:0:0:0:1 - - [07/Mar/2026:19:06:45 +0530] "GET /HotelReservationSystem/login HTTP/1.1" 200 2269
+0:0:0:0:0:0:0:1 - - [07/Mar/2026:19:06:45 +0530] "GET /HotelReservationSystem/login HTTP/1.1" 200 2269
+0:0:0:0:0:0:0:1 - - [07/Mar/2026:19:06:46 +0530] "GET /HotelReservationSystem/login HTTP/1.1" 200 2269
+0:0:0:0:0:0:0:1 - - [07/Mar/2026:19:06:46 +0530] "GET /HotelReservationSystem/login HTTP/1.1" 200 2269
+0:0:0:0:0:0:0:1 - - [07/Mar/2026:19:09:46 +0530] "GET /HotelReservationSystem/ HTTP/1.1" 200 2252
+0:0:0:0:0:0:0:1 - - [07/Mar/2026:19:10:12 +0530] "GET /HotelReservationSystem/login HTTP/1.1" 200 2252
