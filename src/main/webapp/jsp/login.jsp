@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Login | SS Hotel Reservation System</title>
+    <title>Login | Ocean View Resort</title>
     <link rel="stylesheet" href="<%=request.getContextPath()%>/css/style.css">
 </head>
 <body class="page-login">
@@ -11,7 +11,7 @@
     <div class="login-layout">
         <section class="login-intro">
             <div class="stack">
-                <h1>SS Hotel Reservation System</h1>
+                <h1>Ocean View Resort</h1>
                 <p>Manage guest reservations, billing, and reporting from one professional operations workspace.</p>
             </div>
             <ul class="login-points">
