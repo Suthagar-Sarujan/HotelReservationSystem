@@ -36,8 +36,8 @@ Java EE web application for hotel reservation management using Servlets/JSP, DAO
 
 ## Demo Credentials
 - `admin / admin123`
-- `manager / admin123`
-- `reception / admin123`
+- `manager / manager123`
+- `reception / reception123`
 
 ## Role-Page Mapping
 - `RECEPTION`: Dashboard, Add Reservation, View Reservations (CRUD), Calculate Bill, Help

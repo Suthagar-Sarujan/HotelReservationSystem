@@ -22,10 +22,9 @@ public class UserServiceImpl implements IUserService {
             return null;
         }
 
-        // DEMO/DEVELOPMENT MODE: Using hardcoded password for testing purposes
-        // PRODUCTION NOTE: This should be replaced with proper password hashing (BCrypt/Argon2)
-        // Example: BCrypt.checkpw(password, user.getPassword())
-        return verifyPassword(password, user.getPassword()) ? user : null;
+        // DEMO/DEVELOPMENT MODE: Using per-role demo passwords for testing purposes
+        // PRODUCTION NOTE: Replace with proper password hashing (BCrypt/Argon2) against stored credentials
+        return verifyPassword(user.getUsername(), password) ? user : null;
     }
 
     @Override
@@ -34,15 +33,25 @@ public class UserServiceImpl implements IUserService {
     }
 
     /**
-     * Verifies the provided password against the stored password.
-     * DEMO MODE: Uses simple string comparison
-     * PRODUCTION: Should use BCrypt.checkpw() or similar secure hashing
+     * Verifies the provided password against demo credentials.
+     * DEMO MODE: Simple string comparison per demo user
+     * PRODUCTION: Replace with hashed password verification (e.g., BCrypt.checkpw)
      */
-    @SuppressWarnings("unused")
-    private boolean verifyPassword(String providedPassword, String storedPassword) {
-        // For demo/testing: accept "admin123" for any user
-        // In production, compare with actual hashed password from database
-        // Example: return BCrypt.checkpw(providedPassword, storedPassword);
-        return "admin123".equals(providedPassword);
+    private boolean verifyPassword(String username, String providedPassword) {
+        if (username == null || providedPassword == null) {
+            return false;
+        }
+
+        String normalized = username.trim().toLowerCase();
+        switch (normalized) {
+            case "admin":
+                return "admin123".equals(providedPassword);
+            case "manager":
+                return "manager123".equals(providedPassword);
+            case "reception":
+                return "reception123".equals(providedPassword);
+            default:
+                return false;
+        }
     }
 }

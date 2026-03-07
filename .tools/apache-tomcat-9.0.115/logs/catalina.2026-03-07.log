@@ -1,0 +1,324 @@
+07-Mar-2026 00:55:29.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.115
+07-Mar-2026 00:55:29.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 21 2026 08:17:26 UTC
+07-Mar-2026 00:55:29.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.115.0
+07-Mar-2026 00:55:29.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+07-Mar-2026 00:55:29.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Mar-2026 00:55:29.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Mar-2026 00:55:29.800 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21.0.10
+07-Mar-2026 00:55:29.800 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.10+8-LTS-217
+07-Mar-2026 00:55:29.801 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Mar-2026 00:55:29.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115
+07-Mar-2026 00:55:29.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115
+07-Mar-2026 00:55:29.815 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Mar-2026 00:55:29.815 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.invoke=ALL-UNNAMED
+07-Mar-2026 00:55:29.815 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+07-Mar-2026 00:55:29.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Mar-2026 00:55:29.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+07-Mar-2026 00:55:29.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Mar-2026 00:55:29.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Mar-2026 00:55:29.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\conf\logging.properties
+07-Mar-2026 00:55:29.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Mar-2026 00:55:29.820 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Mar-2026 00:55:29.820 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Mar-2026 00:55:29.820 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+07-Mar-2026 00:55:29.820 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Mar-2026 00:55:29.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115
+07-Mar-2026 00:55:29.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115
+07-Mar-2026 00:55:29.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\temp
+07-Mar-2026 00:55:29.923 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.5] using APR version [1.7.6].
+07-Mar-2026 00:55:29.924 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Mar-2026 00:55:29.925 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Mar-2026 00:55:29.935 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.18 30 Sep 2025]
+07-Mar-2026 00:55:30.560 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+07-Mar-2026 00:55:30.615 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1153] milliseconds
+07-Mar-2026 00:55:30.699 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Mar-2026 00:55:30.700 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.115]
+07-Mar-2026 00:55:30.802 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\HotelReservationSystem.war]
+07-Mar-2026 00:55:32.397 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2026 00:55:32.497 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\HotelReservationSystem.war] has finished in [1,694] ms
+07-Mar-2026 00:55:32.499 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\docs]
+07-Mar-2026 00:55:32.558 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\docs] has finished in [58] ms
+07-Mar-2026 00:55:32.559 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\examples]
+07-Mar-2026 00:55:33.170 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\examples] has finished in [611] ms
+07-Mar-2026 00:55:33.171 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\host-manager]
+07-Mar-2026 00:55:33.261 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\host-manager] has finished in [90] ms
+07-Mar-2026 00:55:33.262 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\manager]
+07-Mar-2026 00:55:33.352 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\manager] has finished in [91] ms
+07-Mar-2026 00:55:33.360 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\ROOT]
+07-Mar-2026 00:55:33.446 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\ROOT] has finished in [85] ms
+07-Mar-2026 00:55:33.459 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+07-Mar-2026 00:55:33.511 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2892] milliseconds
+07-Mar-2026 01:35:44.639 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-Mar-2026 01:35:44.641 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+07-Mar-2026 01:35:44.655 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Mar-2026 01:35:44.731 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [HotelReservationSystem] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+07-Mar-2026 01:35:44.768 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+07-Mar-2026 01:35:44.781 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+07-Mar-2026 01:36:09.458 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.115
+07-Mar-2026 01:36:09.466 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 21 2026 08:17:26 UTC
+07-Mar-2026 01:36:09.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.115.0
+07-Mar-2026 01:36:09.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+07-Mar-2026 01:36:09.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Mar-2026 01:36:09.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Mar-2026 01:36:09.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21.0.10
+07-Mar-2026 01:36:09.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.10+8-LTS-217
+07-Mar-2026 01:36:09.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Mar-2026 01:36:09.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115
+07-Mar-2026 01:36:09.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115
+07-Mar-2026 01:36:09.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Mar-2026 01:36:09.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.invoke=ALL-UNNAMED
+07-Mar-2026 01:36:09.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+07-Mar-2026 01:36:09.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Mar-2026 01:36:09.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+07-Mar-2026 01:36:09.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Mar-2026 01:36:09.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Mar-2026 01:36:09.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\conf\logging.properties
+07-Mar-2026 01:36:09.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Mar-2026 01:36:09.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Mar-2026 01:36:09.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Mar-2026 01:36:09.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+07-Mar-2026 01:36:09.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Mar-2026 01:36:09.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115
+07-Mar-2026 01:36:09.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115
+07-Mar-2026 01:36:09.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\temp
+07-Mar-2026 01:36:09.493 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.5] using APR version [1.7.6].
+07-Mar-2026 01:36:09.493 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Mar-2026 01:36:09.494 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Mar-2026 01:36:09.502 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.18 30 Sep 2025]
+07-Mar-2026 01:36:10.015 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+07-Mar-2026 01:36:10.057 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [898] milliseconds
+07-Mar-2026 01:36:10.128 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Mar-2026 01:36:10.128 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.115]
+07-Mar-2026 01:36:10.151 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\HotelReservationSystem.war]
+07-Mar-2026 01:36:11.527 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2026 01:36:11.617 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\HotelReservationSystem.war] has finished in [1,466] ms
+07-Mar-2026 01:36:11.620 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\docs]
+07-Mar-2026 01:36:11.684 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\docs] has finished in [63] ms
+07-Mar-2026 01:36:11.684 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\examples]
+07-Mar-2026 01:36:12.259 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\examples] has finished in [575] ms
+07-Mar-2026 01:36:12.260 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\host-manager]
+07-Mar-2026 01:36:12.358 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\host-manager] has finished in [98] ms
+07-Mar-2026 01:36:12.360 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\manager]
+07-Mar-2026 01:36:12.443 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\manager] has finished in [84] ms
+07-Mar-2026 01:36:12.444 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\ROOT]
+07-Mar-2026 01:36:12.503 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\ROOT] has finished in [58] ms
+07-Mar-2026 01:36:12.510 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+07-Mar-2026 01:36:12.555 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2495] milliseconds
+07-Mar-2026 01:57:34.110 SEVERE [main] org.apache.catalina.startup.Catalina.stopServer Could not contact [localhost:8006] (base port [8006] and offset [0]). Tomcat may not be running.
+07-Mar-2026 01:59:15.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.115
+07-Mar-2026 01:59:15.015 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 21 2026 08:17:26 UTC
+07-Mar-2026 01:59:15.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.115.0
+07-Mar-2026 01:59:15.017 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+07-Mar-2026 01:59:15.017 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Mar-2026 01:59:15.018 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Mar-2026 01:59:15.018 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21.0.10
+07-Mar-2026 01:59:15.018 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.10+8-LTS-217
+07-Mar-2026 01:59:15.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Mar-2026 01:59:15.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115
+07-Mar-2026 01:59:15.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115
+07-Mar-2026 01:59:15.032 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Mar-2026 01:59:15.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.invoke=ALL-UNNAMED
+07-Mar-2026 01:59:15.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+07-Mar-2026 01:59:15.034 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Mar-2026 01:59:15.034 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+07-Mar-2026 01:59:15.034 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Mar-2026 01:59:15.034 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Mar-2026 01:59:15.034 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\conf\logging.properties
+07-Mar-2026 01:59:15.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Mar-2026 01:59:15.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Mar-2026 01:59:15.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Mar-2026 01:59:15.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+07-Mar-2026 01:59:15.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Mar-2026 01:59:15.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115
+07-Mar-2026 01:59:15.037 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115
+07-Mar-2026 01:59:15.037 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\temp
+07-Mar-2026 01:59:15.046 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.5] using APR version [1.7.6].
+07-Mar-2026 01:59:15.047 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Mar-2026 01:59:15.047 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Mar-2026 01:59:15.054 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.18 30 Sep 2025]
+07-Mar-2026 01:59:15.523 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+07-Mar-2026 01:59:15.564 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [878] milliseconds
+07-Mar-2026 01:59:15.631 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Mar-2026 01:59:15.632 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.115]
+07-Mar-2026 01:59:15.655 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\HotelReservationSystem.war]
+07-Mar-2026 01:59:17.117 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2026 01:59:17.203 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\HotelReservationSystem.war] has finished in [1,547] ms
+07-Mar-2026 01:59:17.204 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\docs]
+07-Mar-2026 01:59:17.262 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\docs] has finished in [58] ms
+07-Mar-2026 01:59:17.263 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\examples]
+07-Mar-2026 01:59:17.845 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\examples] has finished in [582] ms
+07-Mar-2026 01:59:17.846 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\host-manager]
+07-Mar-2026 01:59:17.918 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\host-manager] has finished in [72] ms
+07-Mar-2026 01:59:17.919 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\manager]
+07-Mar-2026 01:59:17.976 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\manager] has finished in [58] ms
+07-Mar-2026 01:59:17.977 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\ROOT]
+07-Mar-2026 01:59:18.028 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\ROOT] has finished in [51] ms
+07-Mar-2026 01:59:18.035 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+07-Mar-2026 01:59:18.076 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2508] milliseconds
+07-Mar-2026 02:15:04.704 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-Mar-2026 02:15:04.705 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+07-Mar-2026 02:15:04.719 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Mar-2026 02:15:04.793 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [HotelReservationSystem] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+07-Mar-2026 02:15:04.831 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+07-Mar-2026 02:15:04.839 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+07-Mar-2026 02:16:30.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.115
+07-Mar-2026 02:16:30.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 21 2026 08:17:26 UTC
+07-Mar-2026 02:16:30.519 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.115.0
+07-Mar-2026 02:16:30.519 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+07-Mar-2026 02:16:30.519 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Mar-2026 02:16:30.519 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Mar-2026 02:16:30.519 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21.0.10
+07-Mar-2026 02:16:30.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.10+8-LTS-217
+07-Mar-2026 02:16:30.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Mar-2026 02:16:30.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115
+07-Mar-2026 02:16:30.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115
+07-Mar-2026 02:16:30.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Mar-2026 02:16:30.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.invoke=ALL-UNNAMED
+07-Mar-2026 02:16:30.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+07-Mar-2026 02:16:30.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Mar-2026 02:16:30.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+07-Mar-2026 02:16:30.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Mar-2026 02:16:30.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Mar-2026 02:16:30.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\conf\logging.properties
+07-Mar-2026 02:16:30.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Mar-2026 02:16:30.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Mar-2026 02:16:30.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Mar-2026 02:16:30.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+07-Mar-2026 02:16:30.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Mar-2026 02:16:30.539 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115
+07-Mar-2026 02:16:30.539 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115
+07-Mar-2026 02:16:30.539 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\temp
+07-Mar-2026 02:16:30.549 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.5] using APR version [1.7.6].
+07-Mar-2026 02:16:30.550 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Mar-2026 02:16:30.550 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Mar-2026 02:16:30.559 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.18 30 Sep 2025]
+07-Mar-2026 02:16:31.070 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+07-Mar-2026 02:16:31.115 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [895] milliseconds
+07-Mar-2026 02:16:31.188 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Mar-2026 02:16:31.189 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.115]
+07-Mar-2026 02:16:31.216 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\HotelReservationSystem.war]
+07-Mar-2026 02:16:32.814 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2026 02:16:32.899 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\HotelReservationSystem.war] has finished in [1,682] ms
+07-Mar-2026 02:16:32.900 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\docs]
+07-Mar-2026 02:16:32.980 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\docs] has finished in [80] ms
+07-Mar-2026 02:16:32.982 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\examples]
+07-Mar-2026 02:16:34.352 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\examples] has finished in [1,371] ms
+07-Mar-2026 02:16:34.359 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\host-manager]
+07-Mar-2026 02:16:34.932 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\host-manager] has finished in [570] ms
+07-Mar-2026 02:16:34.944 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\manager]
+07-Mar-2026 02:16:35.619 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\manager] has finished in [674] ms
+07-Mar-2026 02:16:35.635 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\ROOT]
+07-Mar-2026 02:16:35.871 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\ROOT] has finished in [234] ms
+07-Mar-2026 02:16:35.927 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+07-Mar-2026 02:16:36.049 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [4931] milliseconds
+07-Mar-2026 02:20:26.939 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-Mar-2026 02:20:26.940 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+07-Mar-2026 02:20:26.958 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Mar-2026 02:20:27.064 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+07-Mar-2026 02:20:27.071 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+07-Mar-2026 02:21:54.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.115
+07-Mar-2026 02:21:54.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 21 2026 08:17:26 UTC
+07-Mar-2026 02:21:54.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.115.0
+07-Mar-2026 02:21:54.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+07-Mar-2026 02:21:54.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Mar-2026 02:21:54.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Mar-2026 02:21:54.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21.0.10
+07-Mar-2026 02:21:54.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.10+8-LTS-217
+07-Mar-2026 02:21:54.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Mar-2026 02:21:54.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115
+07-Mar-2026 02:21:54.991 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115
+07-Mar-2026 02:21:54.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Mar-2026 02:21:54.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.invoke=ALL-UNNAMED
+07-Mar-2026 02:21:54.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+07-Mar-2026 02:21:54.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Mar-2026 02:21:54.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+07-Mar-2026 02:21:54.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Mar-2026 02:21:54.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Mar-2026 02:21:54.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\conf\logging.properties
+07-Mar-2026 02:21:55.000 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Mar-2026 02:21:55.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Mar-2026 02:21:55.005 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Mar-2026 02:21:55.005 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+07-Mar-2026 02:21:55.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Mar-2026 02:21:55.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115
+07-Mar-2026 02:21:55.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115
+07-Mar-2026 02:21:55.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\temp
+07-Mar-2026 02:21:55.017 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.5] using APR version [1.7.6].
+07-Mar-2026 02:21:55.022 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Mar-2026 02:21:55.023 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Mar-2026 02:21:55.030 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.18 30 Sep 2025]
+07-Mar-2026 02:21:55.509 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+07-Mar-2026 02:21:55.550 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [972] milliseconds
+07-Mar-2026 02:21:55.638 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Mar-2026 02:21:55.638 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.115]
+07-Mar-2026 02:21:55.672 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\HotelReservationSystem.war]
+07-Mar-2026 02:21:57.315 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2026 02:21:57.385 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\HotelReservationSystem.war] has finished in [1,711] ms
+07-Mar-2026 02:21:57.387 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\docs]
+07-Mar-2026 02:21:57.451 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\docs] has finished in [63] ms
+07-Mar-2026 02:21:57.453 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\examples]
+07-Mar-2026 02:21:58.163 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\examples] has finished in [710] ms
+07-Mar-2026 02:21:58.164 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\host-manager]
+07-Mar-2026 02:21:58.256 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\host-manager] has finished in [93] ms
+07-Mar-2026 02:21:58.257 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\manager]
+07-Mar-2026 02:21:58.331 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\manager] has finished in [74] ms
+07-Mar-2026 02:21:58.332 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\ROOT]
+07-Mar-2026 02:21:58.393 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\ROOT] has finished in [61] ms
+07-Mar-2026 02:21:58.401 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+07-Mar-2026 02:21:58.477 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2923] milliseconds
+07-Mar-2026 06:13:26.106 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-Mar-2026 06:13:26.154 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+07-Mar-2026 06:13:26.188 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Mar-2026 06:13:26.419 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [HotelReservationSystem] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+07-Mar-2026 06:13:26.477 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+07-Mar-2026 06:13:26.494 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+07-Mar-2026 06:13:38.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.115
+07-Mar-2026 06:13:38.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 21 2026 08:17:26 UTC
+07-Mar-2026 06:13:38.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.115.0
+07-Mar-2026 06:13:38.265 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+07-Mar-2026 06:13:38.265 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-Mar-2026 06:13:38.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Mar-2026 06:13:38.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21.0.10
+07-Mar-2026 06:13:38.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.10+8-LTS-217
+07-Mar-2026 06:13:38.267 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Mar-2026 06:13:38.267 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115
+07-Mar-2026 06:13:38.267 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115
+07-Mar-2026 06:13:38.280 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Mar-2026 06:13:38.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.invoke=ALL-UNNAMED
+07-Mar-2026 06:13:38.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+07-Mar-2026 06:13:38.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Mar-2026 06:13:38.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+07-Mar-2026 06:13:38.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+07-Mar-2026 06:13:38.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Mar-2026 06:13:38.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\conf\logging.properties
+07-Mar-2026 06:13:38.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Mar-2026 06:13:38.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Mar-2026 06:13:38.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Mar-2026 06:13:38.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+07-Mar-2026 06:13:38.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Mar-2026 06:13:38.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115
+07-Mar-2026 06:13:38.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115
+07-Mar-2026 06:13:38.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\temp
+07-Mar-2026 06:13:38.294 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.5] using APR version [1.7.6].
+07-Mar-2026 06:13:38.294 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-Mar-2026 06:13:38.294 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-Mar-2026 06:13:38.319 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.18 30 Sep 2025]
+07-Mar-2026 06:13:38.905 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+07-Mar-2026 06:13:38.955 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1022] milliseconds
+07-Mar-2026 06:13:39.046 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Mar-2026 06:13:39.048 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.115]
+07-Mar-2026 06:13:39.074 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\HotelReservationSystem.war]
+07-Mar-2026 06:13:40.538 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Mar-2026 06:13:40.632 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\HotelReservationSystem.war] has finished in [1,557] ms
+07-Mar-2026 06:13:40.634 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\docs]
+07-Mar-2026 06:13:40.721 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\docs] has finished in [86] ms
+07-Mar-2026 06:13:40.724 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\examples]
+07-Mar-2026 06:13:41.447 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\examples] has finished in [723] ms
+07-Mar-2026 06:13:41.448 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\host-manager]
+07-Mar-2026 06:13:41.545 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\host-manager] has finished in [96] ms
+07-Mar-2026 06:13:41.547 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\manager]
+07-Mar-2026 06:13:41.618 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\manager] has finished in [71] ms
+07-Mar-2026 06:13:41.619 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\ROOT]
+07-Mar-2026 06:13:41.669 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\ICBT\1 Semester\Advanced Programming\Site\HotelReservationSystem\.tools\apache-tomcat-9.0.115\webapps\ROOT] has finished in [50] ms
+07-Mar-2026 06:13:41.675 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+07-Mar-2026 06:13:41.716 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2758] milliseconds
