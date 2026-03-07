@@ -257,3 +257,7 @@
 0:0:0:0:0:0:0:1 - - [07/Mar/2026:04:05:13 +0530] "GET /HotelReservationSystem/login HTTP/1.1" 200 2269
 0:0:0:0:0:0:0:1 - - [07/Mar/2026:04:05:14 +0530] "GET /HotelReservationSystem/login HTTP/1.1" 200 2269
 0:0:0:0:0:0:0:1 - - [07/Mar/2026:04:05:14 +0530] "GET /HotelReservationSystem/login HTTP/1.1" 200 2269
+0:0:0:0:0:0:0:1 - - [07/Mar/2026:06:14:18 +0530] "GET /HotelReservationSystem HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [07/Mar/2026:06:14:18 +0530] "GET /HotelReservationSystem/ HTTP/1.1" 200 2269
+0:0:0:0:0:0:0:1 - - [07/Mar/2026:06:14:18 +0530] "GET /HotelReservationSystem/css/style.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [07/Mar/2026:06:14:18 +0530] "GET /HotelReservationSystem/js/validation.js HTTP/1.1" 304 -
